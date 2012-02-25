@@ -14,6 +14,7 @@ namespace VisualiserDemo
         public DemoObject()
         {
             Colour = Color.DarkOrange;
+            //Build a large array that isn't easy to see in the debugger
             IntArray = InitialiseRandomArray(18, 7);
         }
 
