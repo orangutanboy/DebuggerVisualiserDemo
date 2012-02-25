@@ -21,7 +21,7 @@ namespace VisualiserDemo
         public int[,] IntArray { get; private set; }
         public Color Colour { get; set; }
 
-        private int[,] InitialiseRandomArray(int index1, int index2)
+        private static int[,] InitialiseRandomArray(int index1, int index2)
         {
             var intArray = new int[index1, index2];
 
